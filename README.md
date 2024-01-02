@@ -4,7 +4,7 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL : https://snaptranslate.azurewebsites.net/ </b> <br>
-<b>Demo Video URL :  </b><br>
+<b>Demo Video URL : https://drive.google.com/file/d/10nnp-bNCQP5bAFHqTfmxnAJIcuEwQW2P/view?usp=drive_link </b><br>
 <b>Github Repository URL :  </b> <br>
 
 <b>Industry : Lifestyle and Intelligence Technology </b><br>

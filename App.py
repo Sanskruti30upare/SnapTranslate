@@ -9,14 +9,14 @@ import numpy as np
 
 
 # Set the title of the tab
-st.set_page_config(page_title="Extraction Application")
+st.set_page_config(page_title="SNAP TRANSLATOR")
 
 # Custom CSS style
 cus_css = """
     body {
-        color: white; /* Change the text color to white */
+        color: black; /* Change the text color to white */
         font-family: Arial, sans-serif;
-        background-color: lightblue;
+        background-color: black;
         
        
     }
@@ -24,16 +24,16 @@ cus_css = """
         background-color: #007BFF !important;
         color: white !important;
         font-weight: bold !important;
-        border-radius: 5px !important;
+        border-radius: 10px !important;
     }
     .stSelectbox {
         background-color: #fff !important;
-        color: #333 !important;
+        color: black !important;
         font-weight: bold !important;
-        border-radius: 5px !important;
+        border-radius: 8px !important;
     }
     [data-testid="stAppViewContainer"] {
-    background-color: lightblue;
+    background-color: lightpink;
 opacity: 0.9;
 }
     """
@@ -47,7 +47,7 @@ trans_api_key = os.getenv("TRANSLATOR_API_KEY")
 trans_api_region = os.getenv("TRANSLATOR_API_REGION")
 
 # Streamlit app title and instructions
-st.title("Extractor Application")    
+st.title("SNAP TRANSLATOR")    
 
 # First field for image upload
 st.subheader("Upload your files here")

@@ -110,7 +110,7 @@ Azure Monitor Service to Monitor the performance of your web application, identi
 
 <h3>Working Live Project Display</h3>
 <b>Description:<p align="justify">I am providing the enclosed screenshot of the finalized operational website for your reference and review purposes.</b></p><br>
-<img src="./screenshots/text.ss4.PNG" alt="azure-app-service"></img></b><br>
+<img src="./screenshots/text.ss6.PNG" alt="azure-app-service"></img></b><br>
 
 <b>How To Use steps :
 <ul>

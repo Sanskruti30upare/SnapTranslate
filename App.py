@@ -13,9 +13,11 @@ st.set_page_config(page_title="SNAP TRANSLATOR")
 
 # Custom CSS style
 cus_css = """
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
     body {
         color: black; /* Change the text color to white */
-        font-family: Arial, sans-serif;
+        font-family: 'Lato', sans-serif;
         background-color: black;
         
        

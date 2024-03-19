@@ -171,5 +171,48 @@ if "image_path" in locals():
     else:
         st.error("Text extraction failed.")
 
+import streamlit as st
+
+# Define CSS styles for the popup
+custom_css = """
+<style>
+/* Style for the popup content */
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Title style */
+.popup-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+</style>
+"""
+
+# Main function
+def main():
+    # Display custom CSS
+    st.markdown(custom_css, unsafe_allow_html=True)
+
+    # Popup content
+    with st.sidebar:
+        st.markdown("<h1 class='popup-title'>Snap Translator FAQs</h1>", unsafe_allow_html=True)
+        st.markdown("""
+            <iframe src='https://webchat.botframework.com/embed/botlang-link-bot?s=97DdTJbMI5k.Q9kBuAh_CcHW00Dq-MVoehy0Fw1ZBV7wi1BfeX9Qg30'
+                    style='width: 100%; height: 500px; border: none;'></iframe>
+        """, unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    main()
         
     
